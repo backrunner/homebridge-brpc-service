@@ -1,6 +1,6 @@
 {
   "name": "homebridge-brpc-service",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Service of homebridge-brpc plugin",
   "main": "main.js",
   "scripts": {
@@ -9,12 +9,12 @@
   "author": "BackRunner",
   "license": "MIT",
   "dependencies": {
-    "glob": "^7.1.4",
-    "koa": "^2.8.1",
-    "koa-bodyparser": "^4.2.1",
+    "glob": "^7.1.7",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
     "koa-compose": "^4.1.0",
     "koa-cors": "0.0.16",
     "koa-json": "^2.0.2",
-    "koa-router": "^7.4.0"
+    "koa-router": "^10.0.0"
   }
 }
