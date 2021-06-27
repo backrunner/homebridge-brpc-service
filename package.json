@@ -1,8 +1,16 @@
 {
   "name": "homebridge-brpc-service",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Service of homebridge-brpc plugin",
   "main": "main.js",
+  "homepage": "https://github.com/backrunner/homebridge-brpc-service",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/backrunner/homebridge-brpc-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/backrunner/homebridge-brpc-service/issues"
+  },
   "scripts": {
     "start": "node main.js"
   },
