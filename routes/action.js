@@ -17,7 +17,7 @@ router.get('/shutdown', async (ctx, next) => {
 
 router.get('/hibernate', async (ctx, next) => {
   if (auth(ctx)) {
-    execSync('shutdown -s -h -t 0');
+    execSync('shutdown -h');
     ctx.body = 'Success';
   } else {
     ctx.status = 401;
